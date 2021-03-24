@@ -6,7 +6,7 @@ while True:
     else:
         while True:
             b = input('Введите действие (+x; -x; *x; /x; **x; =): ')
-            if b[0] == '=':
+            if b == '=':
                 break
             while True:
                 try:
